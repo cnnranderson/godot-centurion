@@ -1,0 +1,66 @@
+[gd_scene format=2]
+
+[node name="MainMenuGUI" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = -20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+margin_right = 600.0
+margin_bottom = 320.0
+size_flags_horizontal = 5
+size_flags_vertical = 5
+custom_constants/separation = 40
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LeftButtons" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+margin_right = 280.0
+margin_bottom = 320.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/separation = 20
+alignment = 1
+
+[node name="Button" type="Button" parent="MarginContainer/HBoxContainer/LeftButtons"]
+margin_top = 130.0
+margin_right = 280.0
+margin_bottom = 150.0
+
+[node name="Button2" type="Button" parent="MarginContainer/HBoxContainer/LeftButtons"]
+margin_top = 170.0
+margin_right = 280.0
+margin_bottom = 190.0
+
+[node name="RightButtons" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+margin_left = 320.0
+margin_right = 600.0
+margin_bottom = 320.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/separation = 20
+alignment = 1
+
+[node name="Button" type="Button" parent="MarginContainer/HBoxContainer/RightButtons"]
+margin_top = 130.0
+margin_right = 280.0
+margin_bottom = 150.0
+
+[node name="Button2" type="Button" parent="MarginContainer/HBoxContainer/RightButtons"]
+margin_top = 170.0
+margin_right = 280.0
+margin_bottom = 190.0
