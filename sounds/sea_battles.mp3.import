@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/sea_battles.mp3-8ae160559ef28e9712cc4a83a7bcd77a.mp3str"
+
+[deps]
+
+source_file="res://sounds/sea_battles.mp3"
+dest_files=[ "res://.import/sea_battles.mp3-8ae160559ef28e9712cc4a83a7bcd77a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

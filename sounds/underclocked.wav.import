@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/underclocked.wav-a4a112546ec5f6b8b33b0e15c88312fd.sample"
+
+[deps]
+
+source_file="res://sounds/underclocked.wav"
+dest_files=[ "res://.import/underclocked.wav-a4a112546ec5f6b8b33b0e15c88312fd.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

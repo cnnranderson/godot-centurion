@@ -1,7 +1,6 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://assets/images/pilot.png" type="Texture" id=1]
-[ext_resource path="res://MainMenuGUI.tscn" type="PackedScene" id=2]
+[ext_resource path="res://images/pilot.png" type="Texture" id=1]
 
 [node name="Main" type="Node2D"]
 
@@ -12,5 +11,3 @@ texture = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="MainMenuGUI" parent="." instance=ExtResource( 2 )]
